@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lyft: A ride whenever you need one </title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="custom.js"></script>
+    
+
+    <!--  Bootstrap css file  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!--  font awesome icons  -->
+    <link rel="stylesheet" href="./css/all.min.css">
+
+
+    <!--  Magnific Popup css file  -->
+    <link rel="stylesheet" href="./vendor/Magnific-Popup/dist/magnific-popup.css">
+
+
+    <!--  Owl-carousel css file  -->
+    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.theme.default.min.css">
+
+
+    <!--  custom css file  -->
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <!--  Responsive css file  -->
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="fonts.css">
+        <link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+
+    <!--  ======================= Start Header Area ============================== -->
+
+    <header class="header_area" >
+        <div class="main-menu">
+            <nav class="navbar navbar-expand-lg navbar-light text-center">
+                <a class="navbar-brand text-center" href="#"><img src="./img/logooo.PNG" alt="logo"></a>
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div id="search" class="font-roboto floating-label" >
+                    <input id="input" class="floating-label" placeholder="Where are you going"/>
+                    <button id="button"><i class="fa fa-search"></i></button>
+                  </div>                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mr-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#driver">DRIVER <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#rider">RIDER</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#business">BUSINESS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">LOG IN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SIGN UP</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!--  ======================= End Header Area ============================== -->
+
+    <!--  ======================= Start Main Area ================================ -->
+    <main class="site-main">
+
+
+        <!--  ======================= Start Banner Area =======================  -->
+        <section class="site-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 site-title">
+                        <h3 class="title-text"></h3>
+                        <h1 class="title-text text-uppercase">Let's ride</h1>
+                        <h4 class="title-text text-uppercase"></h4>
+                      <br> <br> <div class="site-buttons">
+                            <div class="d-flex flex-row flex-wrap">
+                                <button type="button" class="btn button primary-button mr-4 text-uppercase">
+                                Apply to drive</button>
+                                <button type="button" class="btn button secondary-button text-uppercase">Sign up to ride</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 banner-image"><br>
+                        <img src="./img/hero_home_pp.webp" alt="banner-img" class="img-fluid" >
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  ======================= End Banner Area =======================  -->
+
+        <!--  ========================= Driver Area ==========================  -->
+
+        <section class="about-area" style="background-color: #f8f4fc;" id="driver">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="about-image">
+                            <img src="./img/home_stylized_img_pp.webp" alt="About us" class="img-fluid" style="width: 80%">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 about-title">
+                        <h2 class="text-uppercase pt-5">
+                            <h5>DRIVE WITH LYFT</h5>
+                            <h1>Set your own hours. Earn on</h1>
+                            <h1>your own terms.</h1>
+                        </h2>
+                        <div class="paragraph py-4 w-75">
+                            <H4>Reliable earnings:</H4>
+                            <p class="para">
+                                Make money, keep your tips, and cash out when you want.
+                            </p>    
+                            <H4>A flexible schedule:</H4>
+                            <p class="para">
+                                Be your own boss and drive whenever it works for you.
+                            </p> 
+                            <H4>Get paid instantly:</H4>
+                            <p class="para">Cash out your earnings whenever you want.
+
+
+                            </p> 
+                        </div>
+                        <button type="button" class="btn button primary-button text-uppercase">Apply to drive</button>
+                        <button type="button" class="btn button secondary-button text-uppercase">How drive pay works-></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-area" style="background-color: #f8f4fc;">
+
+            <div class="container carousel py-lg-5">
+                <div class="owl-carousel owl-theme">
+                    <div class="client row">
+                        <div class="col-lg-4 col-md-12 client-img">
+                            <img src="./img/harold_driver.webp" alt="img1" class="img-fluid">
+                        </div>
+                        <div class="col-lg-8 col-md-12 about-client">
+                            <h5 class="text-uppercase">— Harold<br>
+
+                                Driving with Lyft since 2020</h5>
+                            <p class="para">“As a student, it’s hard to complete my class work around a schedule. I started driving more with Lyft and realized it was the perfect opportunity to make money and work on my own time! Driving with Lyft gives me freedom in my schedule to focus on school, which is my main priority.”.</p>
+                        </div>
+                    </div>
+                    <div class="client row">
+                        <div class="col-lg-4 col-md-12 client-img">
+                            <img src="./img/christine_driver.webp" alt="img2" class="img-fluid">
+                        </div>
+                        <div class="col-lg-8 col-md-12 about-client">
+                            <h5 class="text-uppercase">— Christine
+<br>
+                                Driving with Lyft since 2016
+                                
+                                </h5>
+                            <p class="para">“I'm a disabled Marine Corps veteran, and because of my disability, I'm no longer able to work in a structured environment. The few hours a week that I drive connects me to my community and gives me extra money to help make ends meet.”
+                                </p>
+                        </div>
+                    </div>
+                    <div class="client row">
+                        <div class="col-lg-4 col-md-12 client-img">
+                            <img src="./img/timothy_driver.webp" alt="img1" class="img-fluid">
+                        </div>
+                        <div class="col-lg-8 col-md-12 about-client">
+                            <h5 class="text-uppercase">— Timothy<br>
+
+                                Driving with Lyft since 2017</h5>
+                            <p class="para">“Driving with Lyft is the perfect way to make money and be there for my family’s needs. I love providing a way to get my passengers from point A to B. Independence is key for me, and I enjoy meeting new people while driving!”
+                                </p>
+                        </div>
+                    </div>
+                    <div class="client row">
+                        <div class="col-lg-4 col-md-12 client-img">
+                            <img src="./img/mary_driver.webp" alt="img2" class="img-fluid">
+                        </div>
+                        <div class="col-lg-8 col-md-12 about-client">
+                            <h5 class="text-uppercase">— Mary<br>
+
+                                Driving with Lyft since 2019</h5>
+                            <p class="para">“My motto is very simple. It doesn't cost you a penny to be nice and kind, but it will cost you everything if you're not. If I'm free and somebody needs my help, I'll be the first one to jump in, in a heartbeat.”
+                                </p>
+                        </div>
+                    </div>
+                    
+                   
+                </div>
+            </div>
+
+        </section>
+        <!--  ========================= End Driver Area ==========================  -->
+
+        <!--  ======================== Rider Area ==============================  -->
+        <section class="about-area" id="rider">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="about-image">
+                            <img src="./img/rider_stylized_text_image.webp" alt="About us" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 about-title">
+                        <h2 class="text-uppercase pt-5">
+                            <h5>RIDE WITH LYFT</h5>
+                            <h1>Ready, set, go</h1>
+                            <h1>in just a few quick taps
+                            </h1>
+                        </h2>
+                       
+                        <div class="paragraph py-4 w-75">
+                            <H4>Get a reliable ride in minutes</H4><br>
+                            <H4>Know that your driver is wearing a mask</H4><br>
+                            <H4>Schedule your ride in advance</H4><br>
+                            <button type="button" class="btn button primary-button text-uppercase">Get a ride</button><br>
+                            <div class="sevices-img  py-4" >
+                                <img src="./img/pink_paint_4x.webp" alt="Services-2" style="width: 20%;">
+                            </div>
+                            <p class="para" style="text-align: left;">Join Lyft Pink to unlock faster pickups at no extra cost, member-exclusive pricing, and free roadside assistance for your own car—right in the app. All for $9.99/month. Available in the U.S. only.</p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  ======================== End Rider Area ==============================  -->
+
+        <!--  ====================== Start Services Area =============================  -->
+
+        <section class="services-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center services-title">
+                        <h1 class="text-uppercase title-text">Ride. Bike. Scoot. Go bananas.
+                        </h1>
+                        <p class="para">
+                            We’ve got options to get you where you’re going. Choose a ride* that suits your mood and budget.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="brand-carousel section-padding owl-carousel" >
+                    <div class="single-logo">
+                      <img src="img/1.PNG" alt="">
+                    </div>
+                  <div class="single-logo">
+                      <img src="img/2.PNG" alt="">
+                    </div>
+                  <div class="single-logo">
+                      <img src="img/3.PNG" alt="">
+                    </div>
+                  <div class="single-logo">
+                      <img src="img/4.PNG" alt="">
+                    </div>
+                  <div class="single-logo">
+                      <img src="img/5.PNG" alt="">
+                    </div>
+                  <div class="single-logo">
+                      <img src="img/6.PNG" alt="">
+                    </div>
+                    <div class="single-logo">
+                        <img src="img/7.PNG" alt="">
+                      </div>
+                    <div class="single-logo">
+                        <img src="img/8.PNG" alt="">
+                      </div>
+                    <div class="single-logo">
+                        <img src="img/9.PNG" alt="">
+                      </div>
+                  </div>
+
+
+
+        </section>
+        <p class="text-center"  >*Availability of bikes, scooters, rentals, ride types, and transit information varies by region.
+        </p>
+
+        <div class="container111">
+            <form>
+                  <!--  ======================== End Services Area ==============================  -->
+
+                  <!--  ======================== Start search  Area ==============================  -->
+
+              <div class="wrapper">
+                <div class="search-container">
+                    <h3 class="text-uppercase font-roboto">Ready to roll?    Get an estimate. </h3><br>
+                  <input type="text" class="date-from  font-roboto" style="margin-left: 40px;" placeholder="Enter pick-up location*">
+                  <input type="text" class="date-to  font-roboto" style="margin-left: 20px;" placeholder="Enter drop-off location*">
+                  <button type="button" style="margin-left: 20px;" class="btn button secondary-button text-uppercase">get ESTIMATE-></button>
+
+                </div>
+              </div>
+          
+            </form>
+          
+          </div>
+
+
+
+
+        
+        <section class="about-area" style="background-color: #f8f4fc;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="about-image" style="width: 80%;">
+                            <img src="./img/home_safety_pp.webp" alt="About us" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 about-title">
+                        <h2 class="text-uppercase pt-5">
+                            <h5>SAFETY FIRST</h5>
+                            <h1>Your safety comes first. Always.</h1>
+                        </h2>
+                        
+                       
+                        <div class="paragraph py-4 w-75">
+                            <p class="para" style="text-align: left;">We look out for you before, during, and after every single ride. And we monitor rides to help you get where you need to go. If you ever need it, we’re standing by, ready to help.</p>
+                            <div class="d-flex flex-row flex-wrap">
+                                <button type="button" class="btn button primary-button mr-4 text-uppercase">
+                                Learn abput safety</button>
+                                <button type="button" class="btn button secondary-button text-uppercase">Community guidlines-></button>
+                            </div>
+                            
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+        <!--  ======================= End Project Area =============================  -->
+
+        <!--  ======================== About Me Area ==============================  -->
+
+        <section class="about-area" id="business">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <div class="sevices-img text-center py-4" >
+                            <img src="./img/lyftup_rider_pp_optimized.jpg" alt="Services-2" style="width: 70%;">
+                        </div>
+                        <div class="about-title">
+                            <h1 class="text-uppercase title-h1">Making millions of rides more accessible
+                            </h1>
+                            <p class="para">
+                                A ride is more than just a ride. It's a gateway to opportunities and jobs. A connection to community. And access to essentials like groceries, healthcare, and polling places. Our LyftUp initiative makes rides more accessible for millions, and helps bring communities even closer.
+
+                            </p>
+                            <button type="button" class="btn button secondary-button text-uppercase">Learn about our lyft program -></button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                   
+
+        </section>
+        <section class="about-area" style="background-color: #f8f4fc;">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <div class="sevices-img text-center py-4" >
+                            <img src="./img/Lyft_Business_Pink.svg" alt="Services-2" style="width: 10%;">
+                        </div>
+                        <div class="about-title">
+                            
+                            <section class="cd-intro text-center font-roboto">
+                                <h1 class="cd-headline slide text-center font-roboto">
+                                    <span class="title">We help move</span><BR>
+                                    <span class="cd-words-wrapper text-center">
+                                        <b class="is-visible">employees</b>
+                                        <b>VIPs</b>
+                                        <b>customers</b>
+                                        <b>visitors</b>
+                                        <b>students</b>
+                                        <b>essential</b>
+                                    </span>
+                                </h1>
+                            </section> <!-- cd-intro -->
+                        
+                        
+                        <script src="js/jquery-2.1.1.js"></script>
+                        <script src="js/main.js"></script> <!-- Resource jQuery -->
+
+
+
+                            
+                            <p class="para">
+From affordable transportation solutions to effortless expensing, we’ll help drive your business forward by
+<br> your people where they need to go.
+                            </p>
+                            <button type="button" class="btn button secondary-button text-uppercase">Learn more</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="brand-carousel section-padding owl-carousel" >
+                <div class="slide-in-right slide" style="margin-left: 50px; margin-right:50px"><img src="img/airbnb-logo_1.png" alt="Kinderhotel Aschauerhof" height="70" width="70"></a></div>
+        <div class="slide-in-right slide" style="margin-left: 50px; margin-right:50px"><img src="img/ascension-health-logo_0.png" height="70" width="70"></a></div>
+        <div class="slide-in-right slide" style="margin-left: 50px; margin-right:50px"><img src="img/delta-air-lines-logo_0.png" height="70" width="70"></a></div>
+        <div class="slide-in-right slide" style="margin-left: 50px; margin-right:50px"><img src="img/modivcare.png" height="70" width="70"></a></div>
+        <div class="slide-in-right slide"style="margin-left: 50px; margin-right:50px"><img src="img/salesforce.png.png" height="120" width="120" alt="Tannenmuehle"></a></div>
+        <div class="slide-in-right slide" style="margin-left: 50px; margin-right:50px"><img src="img/sap-concur-logo.png" height="70" width="70" alt="Loeffele"></a></div>
+        <div class="slide-in-right slide" style="margin-left: 50px; margin-right:50px"><img src="img/1280px-Slack_Technologies_Logo.svg.png" alt="Krone" height="70" width="70"></a></div>
+        <div class="slide-in-right slide" style="margin-left: 50px; margin-right:50px"><img src="img/University-of-Southern-California-logo.png" alt="Obereggen" height="70" width="70"></a></div>
+    
+            </div>   
+
+        </section>
+
+        <!--  ======================== End About Me Area ==============================  -->
+
+        <!--  ========================== Subscribe me Area ============================  -->
+        <!--  ========================== End Subscribe me Area ============================  -->
+
+
+    </main>
+    <!--  ======================= End Main Area ================================ -->
+    <footer class="footer">
+        <div class="container bottom_border">
+        <div class="row">
+      
+        
+            <div class=" col-sm-4 col-md  col-6 col text-uppercase font-roboto">
+                <h5 class="headin5_amrc col_white_amrc pt2">DRIVER</h5>
+                <!--headin5_amrc-->
+                <ul class="footer_ul_amrc">
+                <li><a href="#">BECOME A DRIVER</a></li>
+                <li><a href="#">EARNINGS</a></li>
+                <li><a href="#">CITIES</a></li>
+                <li><a href="#">HELP</a></li>
+                <li><a href="#">SAFETY</a></li>
+                <li><a href="#">APPLICATION REQUIREMENTS</a></li>
+                <li><a href="#">EXPRESS DRIVE</a></li>
+                <li><a href="#">BONUS</a></li>
+                <li><a href="#">LYFT REWARDS</a></li>
+                <li><a href="#">DRIVING opportunities</a></li>
+                <li><a href="#">INSURANCE</a></li>
+                <li><a href="#">HUB</a></li>
+                </ul>
+                <!--footer_ul_amrc ends here-->
+                </div>
+        
+        
+        <div class=" col-sm-4 col-md  col-6 col text-uppercase font-roboto">
+        <h5 class="headin5_amrc col_white_amrc pt2">RIDER</h5>
+        <!--headin5_amrc-->
+        <ul class="footer_ul_amrc">
+        <li><a href="#">SIGN UP TO RIDE</a></li>
+        <li><a href="#">FARE ESTIMATE</a></li>
+        <li><a href="#">LYFT PINK</a></li>
+        <li><a href="#">CITIES</a></li>
+        <li><a href="#">HELP</a></li>
+        <li><a href="#">SAFETY</a></li>
+        <li><a href="#">BUSINESS PROFILE</a></li>
+        <li><a href="#">REWARDS</a></li>
+        <li><a href="#">EVENTS</a></li>
+        <li><a href="#">AIRPORTS</a></li>
+        <li><a href="#">GIFT CARDS</a></li>
+        <li><a href="#">DONATE</a></li>
+        <li><a href="#">BLOG</a></li>
+        </ul>
+        <!--footer_ul_amrc ends here-->
+        </div>
+
+        <div class=" col-sm-4 col-md  col-6 col text-uppercase font-roboto">
+            <h5 class="headin5_amrc col_white_amrc pt2">LYFT</h5>
+            <!--headin5_amrc-->
+            <ul class="footer_ul_amrc">
+            <li><a href="#">CAREERS</a></li>
+            <li><a href="#">LYFTUP</a></li>
+            <li><a href="#">BUSINESS</a></li>
+            <li><a href="#">RENTALS</a></li>
+            <li><a href="#">BIKES</a></li>
+            <li><a href="#">scooters</a></li>
+            <li><a href="#">SELF-DRIVING</a></li>
+            <li><a href="#">LYFT MEDIA</a></li>
+            <li><a href="#">DEVELOPERS</a></li>
+            <li><a href="#">PRESS</a></li>
+            <li><a href="#">INVESTOR RELATIONS</a></li>
+            </ul>
+            <!--footer_ul_amrc ends here-->
+            </div>
+
+            <div class=" col-sm-4 col-md  col-6 col text-uppercase font-roboto"><br><br>
+                <button type="button" class="btn button secondary-button text-uppercase">lyft driver app</button><BR><br>
+                <button type="button" class="btn button secondary-button text-uppercase">lyft rider app</button><br><br>
+                <button type="button" class="btn button secondary-button text-uppercase">ride on web</button>
+
+            </div>
+
+            
+        </div>
+        </div>
+        
+        
+        <div class="container">
+        <ul class="foote_bottom_ul_amrc text-uppercase font-roboto">
+        <li><a href="#">terms</a></li>
+        <li><a href="#">privacy</a></li>
+        <li><a href="#">accessibility statement</a></li>
+        </ul>
+        <!--foote_bottom_ul_amrc ends here-->
+        <p class="text-center text-uppercase font-roboto">Copyright @2022 | Designed With by lyft.inc | CPUC ID No. TCP0032513-P</p>
+        
+        <ul class="social_footer_ul">
+        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+        <!--social_footer_ul ends here-->
+        </div>
+        
+        </footer>
+        
+        
+        
+        
+        
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+    <!--  Jquery js file  -->
+    <script src="./js/jquery.3.4.1.js"></script>
+
+    <!--  Bootstrap js file  -->
+    <script src="./js/bootstrap.min.js"></script>
+
+    <!--  isotope js library  -->
+    <script src="./vendor/isotope/isotope.min.js"></script>
+
+    <!--  Magnific popup script file  -->
+    <script src="./vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
+
+    <!--  Owl-carousel js file  -->
+    <script src="./vendor/owl-carousel/js/owl.carousel.min.js"></script>
+
+    <!--  custom js file  -->
+    <script src="./js/main.js"></script>
+
+
+</body>
+
+</html>
